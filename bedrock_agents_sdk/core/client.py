@@ -374,7 +374,7 @@ class Client:
                     "actionGroup": action_group,
                     "function": function_name,
                     "responseBody": {
-                        "application/json": {
+                        "TEXT": {
                             "body": json.dumps(result)
                         }
                     }
